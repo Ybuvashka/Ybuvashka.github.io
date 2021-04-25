@@ -1,0 +1,45 @@
+#world {
+	position: relative;
+	background-color: #7fcdc6;
+    min-width: 97vw;
+    min-height: 1000px;
+}
+#world .title {
+	margin: 0;
+	background-color: #7fcdc6;
+}
+
+#world img {
+	position: absolute;
+}
+
+#world img:nth-child(1) {
+	right: 0;
+	bottom: 50%;
+	z-index: 1;
+	width: 80%;
+	animation: cloud 15s ease-in-out infinite;
+}
+
+#world img:nth-child(2) {
+	width: 100%;
+	bottom: -1%;
+	z-index: 3;
+	animation: waves 6s ease-in-out infinite;
+}
+
+#world img:nth-child(3) {
+	left: 6%;
+	bottom: 5vw;
+	width: 20%;
+	z-index: 2;
+	animation: ship 30s ease-in-out infinite;
+}
+
+#world img:nth-child(4) {
+	bottom: 0%;
+	width: 90%;
+	z-index: 1;
+}
+
+

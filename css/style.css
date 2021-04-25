@@ -130,3 +130,8 @@ nav li a:hover{
 .Portfolio li{
     margin: 20px;
 }
+.labs{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+}
