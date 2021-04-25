@@ -124,9 +124,9 @@ nav li a:hover{
 .contact p,h6{ 
     margin: 20px;
 }
-.Portfolio h6,p{
+.Portfolio h6{
     margin: 20px;
 }
-.Portfolio span{
+.Portfolio li{
     margin: 20px;
 }
