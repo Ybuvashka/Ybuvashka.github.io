@@ -5,10 +5,13 @@ html{
 }
 body{
     font-family: 'Open Sans', sans-serif;
-    
+        color:#fff;
     background: rgb(131,58,180);
-    background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background: linear-gradient(0deg, rgb(199 91 91) 0%, rgb(253 135 29) 50%, rgb(252 69 69) 100%);
     
+}
+a{
+    color: red;
 }
 .landslade{
     height: 40px;
@@ -24,7 +27,8 @@ body{
 .header{
     display: flex;
     height: 200px;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 .title-block{
     display: flex;
@@ -35,7 +39,8 @@ body{
     font-size: 30px;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(5px);box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     background: rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -56,7 +61,7 @@ h1,h2,h3,h4,h5,h6{
 }
 nav{
     position: fixed;
-    background: red;
+    background: #00000066;
     z-index: 100;
     min-height: 10px;
     width: 100vw;
@@ -88,9 +93,10 @@ nav li a:hover{
 .content-wrapper{
     display: flex;
     background: rgb(63,94,251);
-    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background: linear-gradient(313deg, rgba(63,94,251,1) 0%, rgb(70 252 176) 100%);
     min-height: 10vh;
     margin-bottom: 20px;
+    border-radius: 15px;
 }
 
 .content{
